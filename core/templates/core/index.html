@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<form method='POST' action='{% url 'formulaire' %}'>
+<form method='POST' action="{% url 'formulaire' %}">
     {% csrf_token %}
     <p>
     nom : <input type='name' name='nom'>

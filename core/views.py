@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def formulaire (request):
     
-    return (request, 'core/index.html')
+    return render (request, 'core/index.html')
